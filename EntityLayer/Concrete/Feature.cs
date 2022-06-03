@@ -14,6 +14,7 @@ namespace EntityLayer.Concrete
         public string Title { get; set; }
         public string Description { get; set; }
         public string Image { get; set; }
+        public bool isBıgImage { get; set; }
         public bool status { get; set; }
     }
 }
