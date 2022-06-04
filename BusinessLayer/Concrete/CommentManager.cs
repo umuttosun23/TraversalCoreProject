@@ -9,37 +9,40 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer.Concrete
 {
-    public class FeatureManager : IFeatureService
+    public class CommentManager : ICommentService
     {
-        IFeatureDal _featureDal;
-        public FeatureManager(IFeatureDal featureDal)
+        ICommentDal _commentDal;
+
+        public CommentManager(ICommentDal commentDal)
         {
-            _featureDal = featureDal;
+            _commentDal = commentDal;
         }
 
-      
-
-        public void Tadd(Feature t)
+        public void Tadd(Comment t)
         {
-            throw new NotImplementedException();
+            _commentDal.insert(t);
         }
 
-        public void Tdelete(Feature t)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Feature TgetById(int id)
+        public void Tdelete(Comment t)
         {
             throw new NotImplementedException();
         }
 
-        public List<Feature> TgetList()
+        public Comment TgetById(int id)
         {
-            return _featureDal.getList();
+            throw new NotImplementedException();
         }
 
-        public void Tupdate(Feature t)
+        public List<Comment> TgetList()
+        {
+            throw new NotImplementedException();
+        }
+        public List<Comment> TgetDestinationById(int id)
+        {
+            return _commentDal.getListByFilter(x=>x.DestinationID==id);
+        }
+
+        public void Tupdate(Comment t)
         {
             throw new NotImplementedException();
         }

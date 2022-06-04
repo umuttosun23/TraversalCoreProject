@@ -17,10 +17,7 @@ namespace BusinessLayer.Concrete
         {
             _aboutDal = aboutDal;
         }
-        public About getById(int id)
-        {
-            throw new NotImplementedException();  
-        }
+       
 
         public void Tadd(About t)
         {
@@ -30,6 +27,11 @@ namespace BusinessLayer.Concrete
         public void Tdelete(About t)
         {
             _aboutDal.delete(t);
+        }
+
+        public About TgetById(int id)
+        {
+            throw new NotImplementedException();
         }
 
         public List<About> TgetList()

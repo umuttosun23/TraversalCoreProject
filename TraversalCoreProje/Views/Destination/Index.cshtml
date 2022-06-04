@@ -1,0 +1,58 @@
+﻿@model List<Destination>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+<!doctype html>
+<link rel="stylesheet" href="~/Traversal-Liberty/assets/css/style-liberty.css">
+<script src="~/Traversal-Liberty/assets/js/bootstrap.min.js"></script>
+<html lang="zxx">
+
+<body>
+
+    <section class="w3l-about-breadcrumb text-left">
+        <div class="breadcrumb-bg breadcrumb-bg-about py-sm-5 py-4">
+            <div class="container">
+                <h2 class="title">Rotalar</h2>
+                <ul class="breadcrumbs-custom-path mt-2">
+                    <li><a href="/Default/Index">Ana Sayfa</a></li>
+                    <li class="active"><span class="fa fa-arrow-right mx-2" aria-hidden="true"></span>Rehberin Yorumları</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="grids-1 py-5">
+        <div class="grids py-lg-5 py-md-4">
+            <div class="container">
+                <h3 class="hny-title mb-5">Tur Rotalarımız</h3>
+                <div class="row">
+                    @foreach (var item in Model)
+                    {
+                        <div class="col-lg-4 col-md-4 col-6">
+                            <div class="column">
+                                <a href="/Destination/DestinationDetails/@item.DestinationID"><img src="@item.Image" alt="" class="img-fluid"></a>
+                                <div class="info">
+                                    <h4><a href="/Destination/DestinationDetails/@item.DestinationID">@item.City</a></h4>
+                                    <p>@item.Description</p>
+                                    <div class="dst-btm">
+                                        <h6 class="">Başlayan Fiyatlar</h6>
+                                        <span>@item.Price TL(₺)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+
+
+
+
+
+

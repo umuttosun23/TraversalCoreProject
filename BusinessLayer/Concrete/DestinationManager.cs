@@ -17,11 +17,7 @@ namespace BusinessLayer.Concrete
         {
             _destinationDal = destinationDal;
         }
-        public Destination getById(int id)
-        {
-            throw new NotImplementedException();
-        }
-
+      
         public void Tadd(Destination t)
         {
             throw new NotImplementedException();
@@ -30,6 +26,11 @@ namespace BusinessLayer.Concrete
         public void Tdelete(Destination t)
         {
             throw new NotImplementedException();
+        }
+
+        public Destination TgetById(int id)
+        {
+            return _destinationDal.getByID(id);
         }
 
         public List<Destination> TgetList()

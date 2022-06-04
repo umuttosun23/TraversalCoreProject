@@ -17,17 +17,18 @@ namespace BusinessLayer.Concrete
         {
             _testimonialDal = testimonialDal;
         }
-        public Testimonial getById(int id)
-        {
-            throw new NotImplementedException();
-        }
-
+       
         public void Tadd(Testimonial t)
         {
             throw new NotImplementedException();
         }
 
         public void Tdelete(Testimonial t)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Testimonial TgetById(int id)
         {
             throw new NotImplementedException();
         }
