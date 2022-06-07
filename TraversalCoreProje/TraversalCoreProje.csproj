@@ -5,6 +5,66 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\Traversal-Liberty\about.html" />
+    <None Include="wwwroot\Traversal-Liberty\assets\css\style-liberty.css" />
+    <None Include="wwwroot\Traversal-Liberty\assets\fonts\fontawesome-webfont.eot" />
+    <None Include="wwwroot\Traversal-Liberty\assets\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\Traversal-Liberty\assets\fonts\fontawesome-webfont.ttf" />
+    <None Include="wwwroot\Traversal-Liberty\assets\fonts\fontawesome-webfont.woff" />
+    <None Include="wwwroot\Traversal-Liberty\assets\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\Traversal-Liberty\assets\fonts\FontAwesome.otf" />
+    <None Include="wwwroot\Traversal-Liberty\assets\images\banner1.jpg" />
+    <None Include="wwwroot\Traversal-Liberty\assets\images\banner2.jpg" />
+    <None Include="wwwroot\Traversal-Liberty\assets\images\banner3.jpg" />
+    <None Include="wwwroot\Traversal-Liberty\assets\images\banner4.jpg" />
+    <None Include="wwwroot\Traversal-Liberty\assets\images\c1.jpg" />
+    <None Include="wwwroot\Traversal-Liberty\assets\images\c2.jpg" />
+    <None Include="wwwroot\Traversal-Liberty\assets\images\c3.jpg" />
+    <None Include="wwwroot\Traversal-Liberty\assets\images\c4.jpg" />
+    <None Include="wwwroot\Traversal-Liberty\assets\images\close.png" />
+    <None Include="wwwroot\Traversal-Liberty\assets\images\date.png" />
+    <None Include="wwwroot\Traversal-Liberty\assets\images\dots.png" />
+    <None Include="wwwroot\Traversal-Liberty\assets\images\down.png" />
+    <None Include="wwwroot\Traversal-Liberty\assets\images\g1.jpg" />
+    <None Include="wwwroot\Traversal-Liberty\assets\images\g10.jpg" />
+    <None Include="wwwroot\Traversal-Liberty\assets\images\g2.jpg" />
+    <None Include="wwwroot\Traversal-Liberty\assets\images\g3.jpg" />
+    <None Include="wwwroot\Traversal-Liberty\assets\images\g4.jpg" />
+    <None Include="wwwroot\Traversal-Liberty\assets\images\g5.jpg" />
+    <None Include="wwwroot\Traversal-Liberty\assets\images\g6.jpg" />
+    <None Include="wwwroot\Traversal-Liberty\assets\images\g7.jpg" />
+    <None Include="wwwroot\Traversal-Liberty\assets\images\g8.jpg" />
+    <None Include="wwwroot\Traversal-Liberty\assets\images\g9.jpg" />
+    <None Include="wwwroot\Traversal-Liberty\assets\images\img-sprite.png" />
+    <None Include="wwwroot\Traversal-Liberty\assets\images\team1.jpg" />
+    <None Include="wwwroot\Traversal-Liberty\assets\images\team2.jpg" />
+    <None Include="wwwroot\Traversal-Liberty\assets\images\team3.jpg" />
+    <None Include="wwwroot\Traversal-Liberty\assets\images\team4.jpg" />
+    <None Include="wwwroot\Traversal-Liberty\assets\js\all.js" />
+    <None Include="wwwroot\Traversal-Liberty\assets\js\app.js" />
+    <None Include="wwwroot\Traversal-Liberty\assets\js\bootstrap.min.js" />
+    <None Include="wwwroot\Traversal-Liberty\assets\js\jquery-3.3.1.min.js" />
+    <None Include="wwwroot\Traversal-Liberty\assets\js\jquery.countup.js" />
+    <None Include="wwwroot\Traversal-Liberty\assets\js\jquery.min.js" />
+    <None Include="wwwroot\Traversal-Liberty\assets\js\jquery.waypoints.min.js" />
+    <None Include="wwwroot\Traversal-Liberty\assets\js\jquery.zoomslider.min.js" />
+    <None Include="wwwroot\Traversal-Liberty\assets\js\lightbox-plus-jquery.min.js" />
+    <None Include="wwwroot\Traversal-Liberty\assets\js\main.js" />
+    <None Include="wwwroot\Traversal-Liberty\assets\js\modernizr-2.6.2.min.js" />
+    <None Include="wwwroot\Traversal-Liberty\assets\js\owl.carousel.js" />
+    <None Include="wwwroot\Traversal-Liberty\assets\js\popper.min.js" />
+    <None Include="wwwroot\Traversal-Liberty\assets\js\theme-change.js" />
+    <None Include="wwwroot\Traversal-Liberty\blog-single.html" />
+    <None Include="wwwroot\Traversal-Liberty\blog.html" />
+    <None Include="wwwroot\Traversal-Liberty\contact.html" />
+    <None Include="wwwroot\Traversal-Liberty\index.html" />
+    <None Include="wwwroot\Traversal-Liberty\landing-single.html" />
+    <None Include="wwwroot\Traversal-Liberty\liberty-license-W3Layouts.txt" />
+    <None Include="wwwroot\Traversal-Liberty\pricing.html" />
+    <None Include="wwwroot\Traversal-Liberty\services.html" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="FluentValidation" Version="11.0.2" />
     <PackageReference Include="FluentValidation.AspNetCore" Version="11.0.2" />
     <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />

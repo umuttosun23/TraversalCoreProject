@@ -88,7 +88,9 @@ Author URL: http://w3layouts.com
                             <input type="password"  asp-for="ConfirmPassword" />
                             <span asp-validation-for="ConfirmPassword" style="color:  #ff0000"></span>
                         </div>
-
+                        <div style="color:  #ff0000"asp-validation-summary="ModelOnly">
+                            
+                        </div>
                         <label class="container">
                             Şartları okudum <a href="#">Kabul ediyorum</a>
                             <input type="checkbox">
